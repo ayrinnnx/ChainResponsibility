@@ -1,7 +1,5 @@
 package org.example.first;
 
-import org.example.first.ATM;
-
 public class Main {
     public static void main(String[] args) {
 //        int[] currencyDenomination = {1, 2, 5, 10, 20, 50, 100};
