@@ -1,4 +1,4 @@
-package org.example.task1;
+package org.example.first;
 
 public abstract class Tray {
     private int denomination;
@@ -18,9 +18,9 @@ public abstract class Tray {
         } else if (amount % denomination > 0) {
             throw  new IllegalArgumentException();
         }
-        System.out.println("You should take " + amount / denomination + " of denomination " + denomination);
+        System.out.println("You should take " + amount / denomination +
+                " of denomination " + denomination);
 
     }
-
 
 }

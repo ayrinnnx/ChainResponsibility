@@ -1,4 +1,6 @@
-package org.example.task1;
+package org.example.first;
+
+import org.example.first.ATM;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +9,8 @@ public class Main {
 //        for (int i = 0; i < currencyDenomination.length; i++) {
 //            int index = currencyDenomination.length - 1 - i;
 //            int denomination = currencyDenomination[index];
-//            System.out.println("You should take " + amount / denomination + " of denomination " + denomination);
+//            System.out.println("You should take " + amount / denomination +
+//            " of denomination " + denomination);
 //            amount = amount % denomination;
 //        }
         ATM atm = new ATM();
