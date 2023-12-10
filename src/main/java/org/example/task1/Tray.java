@@ -13,9 +13,14 @@ public abstract class Tray {
     }
 
     public void process (int amount) {
-        System.out.println("You should take " + amount / denomination + " of denomination " + denomination);
         if (next != null) {
             next.process(amount % denomination);
+        } else if (amount % denomination > 0) {
+            throw  new IllegalArgumentException();
         }
+        System.out.println("You should take " + amount / denomination + " of denomination " + denomination);
+
     }
+
+
 }
